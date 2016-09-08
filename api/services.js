@@ -26,7 +26,7 @@ var classifierFile = __dirname + '/../training/classifier_id';
 // This application requires 3 ids to work properly
 
 // 1. TMDB API key, explained in https://www.themoviedb.org/documentation/api
-var TMDB_API_KEY = process.env.TMDB_API_KEY || '';
+var TMDB_API_KEY = process.env.TMDB_API_KEY || 'a43e2ec246a72ea487d1bf119c27094c';
 
 // 2. dialog id - see training/setup.js
 var DIALOG_ID = 'TYPE DIALOG ID HERE';
