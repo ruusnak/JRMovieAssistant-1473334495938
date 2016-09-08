@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: JRMovieAssistant
+  host: JRMovieAssistant
+  disk_quota: 1024M
+  services:
+  - JRMovieAssistant-natural_language_classifier
+  - JRMovieAssistant-dialog
+  command: npm start
